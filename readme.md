@@ -6,6 +6,12 @@ This project classifies emails as spam or not using machine learning techniques.
 
 ---
 
+## Project Site
+
+Explore the project here: [Project Site](http://16.171.43.191:8000)
+
+---
+
 ## Problem Statement
 
 Spam emails are a major nuisance, wasting time and posing security threats. This project aims to develop an effective email classification model that can be used to automatically filter spam emails, ensuring a cleaner and more productive inbox experience.
