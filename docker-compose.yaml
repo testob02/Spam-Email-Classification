@@ -1,0 +1,14 @@
+services:
+  fastapi:
+    image: olamilekan02/spam-server:1.0
+    ports:
+      - 8080:8080
+    container_name: spam-server
+
+  streamlit:
+    image: olamilekan02/spam-ui:1.0
+    ports:
+      - 8000:8000
+    container_name: spam-ui
+    depends_on:
+      - fastapi

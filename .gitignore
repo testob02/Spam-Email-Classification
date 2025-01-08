@@ -1,0 +1,7 @@
+__pycache__
+groq_api_key.py
+.env
+*.JPG
+*.png
+*.jpeg
+api_key_secret
